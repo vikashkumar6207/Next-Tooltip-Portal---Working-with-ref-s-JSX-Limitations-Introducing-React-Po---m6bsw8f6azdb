@@ -4,7 +4,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <div id="tooltip-portal"></div>
+      <div id="tooltip-portal">this is a tooltip</div>
     </>
   );
 }
